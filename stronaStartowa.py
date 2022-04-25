@@ -13,7 +13,6 @@ class BaseTestHome(unittest.TestCase):
     def test_checkBrowser(self):
         driver = self.driver
 
-
     def tearDown(self):
         self.driver.quit()
 
